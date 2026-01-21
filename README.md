@@ -166,6 +166,16 @@ This is an educational project. For production use, consider implementing:
 - Input validation and sanitization
 - Database instead of LocalStorage
 
+## 👥 Contributors
+
+This project was developed by:
+
+### Development Team
+
+- **José Guedes** - Full-Stack Developer [40230110@esmad.ipp.pt]
+- **Mário Dias** - Full-Stack Developer [40230356@esmad.ipp.pt]
+
+
 ## 📝 License
 
 This is an academic project developed for POO (Object-Oriented Programming) course at Instituto Politécnico do Porto.

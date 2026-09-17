@@ -115,6 +115,35 @@ cd Projeto-POO
 
 3. Navigate to `http://localhost:8000` (if using a local server)
 
+## Deploying to Vercel
+
+This is a static site, so it does not need a build command or framework preset.
+
+### Vercel dashboard
+
+1. Push this repository to GitHub, GitLab, or Bitbucket.
+2. In Vercel, select **Add New Project** and import the repository.
+3. Set **Framework Preset** to `Other`.
+4. Keep the **Root Directory** as the folder containing `index.html`.
+5. Leave **Build Command** empty and set **Output Directory** to `.`.
+6. Select **Deploy**.
+
+Vercel will serve `index.html` as the home page and preserve the existing `/html`, `/css`, `/js`, `/img`, and `/fonts` paths.
+
+### Vercel CLI
+
+From the project root, run:
+
+```bash
+npx vercel
+```
+
+Follow the prompts to link the project. To deploy the production version later, run:
+
+```bash
+npx vercel --prod
+```
+
 ### Default Admin Credentials
 ```
 Email: admin@admin.com
